@@ -1,0 +1,22 @@
+.box {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 1rem;
+  row-gap: 2rem;
+  font-size: 1.6rem;
+  align-items: center;
+  border-top: 5px white;
+}
+
+.box img {
+  width: 100%;
+  aspect-ratio: 1/1.2;
+  object-fit: cover;
+  border-radius: 0.9rem;
+}
+
+.box h3 {
+  font-size: 1.5rem;
+}

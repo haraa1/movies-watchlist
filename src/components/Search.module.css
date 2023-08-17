@@ -1,0 +1,15 @@
+.search {
+  justify-self: center;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  width: 40rem;
+}
+
+.search:focus {
+  outline: none;
+  box-shadow: 0 2.4rem 2.4rem rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}

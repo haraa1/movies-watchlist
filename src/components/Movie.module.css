@@ -1,0 +1,12 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info button {
+  background-color: #bb2f3d;
+  border-radius: 0.9rem;
+  border: none;
+  color: white;
+  padding: 0.3rem;
+}

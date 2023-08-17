@@ -1,0 +1,11 @@
+.nav {
+  justify-self: end;
+  font-size: 1.8rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+}

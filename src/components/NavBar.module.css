@@ -1,0 +1,10 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 7.2rem;
+  padding: 0 3.5rem;
+  background-color: #bb2f3d;
+  border-radius: 0.9rem;
+  margin-bottom: 5rem;
+}
