@@ -26,8 +26,14 @@ function InfoPopup({ selectedId, handleClearPopUp }) {
     <div className={styles.overlay}>
       <div className={styles.popup}>
         <button onClick={handleClearPopUp}>&#10005;</button>
-        <img src={movie.Poster} alt="" />
-        <p>{movie.Title}</p>
+        <img src={movie.Poster} alt={`${movie.title} poster `} />
+        <div className={styles.info}>
+          <h1>{movie.Title}</h1>
+          <p>{movie.Plot}</p>
+          <span>Genre: {movie.Genre}</span>
+          <span>Director: {movie.Director}</span>
+          <span>Actors: {movie.Actors}</span>
+        </div>
       </div>
     </div>
   );
