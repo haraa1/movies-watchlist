@@ -1,7 +1,7 @@
 .loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 2rem;
 }

@@ -5,7 +5,7 @@ import PageSwap from "./PageSwap";
 function NavBar({ query, setQuery }) {
   return (
     <div className={styles.nav}>
-      <h1>MovieWatchList</h1>
+      <h1>MovieWatchlist</h1>
       <Search query={query} setQuery={setQuery} />
       <PageSwap />
     </div>

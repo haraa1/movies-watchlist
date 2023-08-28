@@ -20,7 +20,7 @@
   max-width: 100%;
 }
 
-.popup button {
+.btnClose {
   position: absolute;
   font-size: 2rem;
   top: 0.6rem;
@@ -55,4 +55,18 @@
 
 .info {
   padding: 1rem;
+}
+
+.btnAdd {
+  display: flex;
+  position: absolute;
+  font-size: 1.5rem;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #2b3035;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  gap: 1rem;
 }

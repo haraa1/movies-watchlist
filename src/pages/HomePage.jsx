@@ -25,6 +25,7 @@ export default function HomePage() {
   function handleClearPopUp() {
     setPopUp(false);
   }
+
   useEffect(
     function () {
       async function fetchMovies() {

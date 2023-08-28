@@ -1,5 +1,5 @@
-import Movie from "./Movie";
 import styles from "./MovieBox.module.css";
+import Movie from "./Movie";
 
 function MovieBox({ movies, handleSelectId }) {
   return (
