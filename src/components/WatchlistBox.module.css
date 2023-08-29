@@ -1,23 +1,23 @@
 .watchlist {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   font-size: 1.6rem;
   list-style: none;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 .watchlist li {
-  flex: 0 0 calc(5% - 1rem);
+  flex: 0 0 calc(20% - 1rem);
   margin-bottom: 2rem;
 }
 
 .watchlist img {
-  max-width: 15rem;
-  aspect-ratio: 2/3;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 30rem;
   border-radius: 0.9rem;
-}
-.watchlist button {
-  display: none;
 }
 
 .watchlist h3 {

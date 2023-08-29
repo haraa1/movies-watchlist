@@ -11,7 +11,7 @@
   margin-bottom: 2rem;
 }
 .box img {
-  max-width: 25rem;
+  max-width: 100%;
   aspect-ratio: 2/3;
   border-radius: 0.9rem;
 }
