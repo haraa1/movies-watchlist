@@ -17,4 +17,9 @@
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 600;
+  padding: 1rem;
+}
+
+.nav a:global(.active) {
+  background-color: rgb(175, 175, 180, 0.5);
 }

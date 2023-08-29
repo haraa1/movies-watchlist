@@ -22,6 +22,19 @@
   gap: 3rem;
 }
 
+.icons svg {
+  cursor: pointer;
+}
+
+.icons svg:hover:first-child {
+  transform: scale(1.2);
+  fill: #bb2f3d;
+}
+.icons svg:hover:last-child {
+  transform: scale(1.2);
+  fill: #ffd700;
+}
+
 .imgContainer {
   position: relative;
   display: inline-block;
