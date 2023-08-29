@@ -6,12 +6,18 @@ function WatchlistProvider({ children }) {
   const [watchlist, setWatchlist] = useState([]);
 
   function handleAddWatchlist(movie) {
-    setWatchlist((watchlist) => [...watchlist, movie]);
+    setWatchlist((watchlistlist) => [...watchlist, movie]);
     console.log(watchlist);
   }
 
+  function handleRemoveWatchlist(id) {
+    setWatchlist((watched) => watchlist.filter((movie) => movie.imdbID !== id));
+  }
+
   return (
-    <WatchlistContext.Provider value={{ watchlist, handleAddWatchlist }}>
+    <WatchlistContext.Provider
+      value={{ watchlist, handleAddWatchlist, handleRemoveWatchlist }}
+    >
       {children}
     </WatchlistContext.Provider>
   );
