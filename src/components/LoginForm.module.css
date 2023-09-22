@@ -1,0 +1,66 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a background color to the entire page */
+
+/* Center the login form on the page */
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50rem;
+}
+
+/* Style the login form container */
+.loginForm {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Style form inputs and labels */
+.loginForm label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: black;
+}
+
+.loginForm input[type="email"],
+.loginForm input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.loginButton {
+  width: 100%;
+  background-color: #bb2f3d;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+/* Add some responsive styles */
+@media screen and (max-width: 400px) {
+  .loginForm {
+    width: 90%;
+  }
+}
