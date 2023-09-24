@@ -11,14 +11,13 @@ function InfoPopup({ selectedId, handleClearPopUp }) {
 
   const isOnWatchlist = watchlist.some((movie) => movie.imdbID === selectedId);
   const { Title: title } = movie;
-  console.log(title);
 
   useEffect(
     function () {
       async function getMovieDetails() {
         setLoading(true);
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`
+          `https://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`
         );
         const data = await res.json();
         setMovie(data);
