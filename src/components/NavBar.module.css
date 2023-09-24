@@ -8,3 +8,12 @@
   border-radius: 0.9rem;
   margin-bottom: 5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .nav {
+    grid-template-columns: 1fr; /* Stack columns for small screens */
+    text-align: center; /* Center align items for small screens */
+    padding: 1rem; /* Adjust padding for small screens */
+    margin-bottom: 1rem; /* Adjust margin for small screens */
+  }
+}
