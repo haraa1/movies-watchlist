@@ -20,5 +20,5 @@ Project I created to learn and get familiar with React and its core concepts, wh
 
 ## How to run
 
-* run npm i
-* run npm run dev
+* run **npm i**
+* run **npm run dev**
