@@ -1,8 +1,24 @@
-# React + Vite
+# MovieWatchlist
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live demo: https://haraa1-movie-watchlist.netlify.app/login 
+Email: user1@example.com
+Password: user
 
-Currently, two official plugins are available:
+Project I created to learn and get familiar with React and its core concepts, while also using libraries such as React Query and React Router. For authentication and authorization I used Supabase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features 
+
+* Movie Search: Search for movies by title.
+
+* Add to Watchlist: Easily add movies you want to watch to your watchlist.
+
+* Watchlist Management: View and manage your watchlist by marking movies as favorites or removing them.
+
+* Movie Details: Access detailed information about each movie, including cast, genre, and synopsis.
+
+* User Accounts: Create user accounts to save your watchlist across sessions. *To be implemented
+
+## How to run
+
+* run npm i
+* run npm run dev
